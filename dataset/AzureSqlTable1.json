@@ -1,0 +1,722 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CRMRecordID",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "importsequencenumber",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "slaname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "numberofchildincidents",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "owninguser",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_owninguser",
+				"type": "nvarchar"
+			},
+			{
+				"name": "resolvebykpiidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "followupby",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "entitlementidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "int_customereffort",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_int_customereffort",
+				"type": "nvarchar"
+			},
+			{
+				"name": "blockedprofile",
+				"type": "bit"
+			},
+			{
+				"name": "subjectid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_subjectid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "msdyn_incidenttype",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_msdyn_incidenttype",
+				"type": "nvarchar"
+			},
+			{
+				"name": "customerid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_customerid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "msdyn_iotalert",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_msdyn_iotalert",
+				"type": "nvarchar"
+			},
+			{
+				"name": "statecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_statecode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "billedserviceunits",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "createdbyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "slainvokedid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_slainvokedid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "contractservicelevelcode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_contractservicelevelcode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "contractdetailid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_contractdetailid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owneridname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "entityimageid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "msdyn_incidenttypename",
+				"type": "nvarchar"
+			},
+			{
+				"name": "contactidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "sentimentvalue",
+				"type": "decimal",
+				"precision": 15,
+				"scale": 2
+			},
+			{
+				"name": "createdonbehalfbyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "accountidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "contractidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owningteam",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_owningteam",
+				"type": "nvarchar"
+			},
+			{
+				"name": "routecase",
+				"type": "bit"
+			},
+			{
+				"name": "firstresponsebykpiid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_firstresponsebykpiid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "isescalated",
+				"type": "bit"
+			},
+			{
+				"name": "entitlementid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_entitlementid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "transactioncurrencyid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_transactioncurrencyid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "slainvokedidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "activitiescomplete",
+				"type": "bit"
+			},
+			{
+				"name": "parentcaseidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "escalatedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "modifiedbyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "msdyn_iotalertname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "responsiblecontactidyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "prioritycode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_prioritycode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "entityimage_url",
+				"type": "nvarchar"
+			},
+			{
+				"name": "kbarticleidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "primarycontactidyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "contactidyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "responsiblecontactidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "subjectidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "responseby",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "modifiedbyexternalpartyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "productidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "casetypecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_casetypecode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "responsiblecontactid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_responsiblecontactid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "caseorigincode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_caseorigincode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "primarycontactidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "contractdetailidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "modifiedonbehalfbyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "contactid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_contactid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "accountid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_accountid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "transactioncurrencyidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "masterid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_masterid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "overriddencreatedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "incidentstagecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_incidentstagecode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ownerid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_ownerid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "kbarticleid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_kbarticleid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdonbehalfbyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "socialprofileidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "resolveby",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "firstresponseslastatus",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_firstresponseslastatus",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ticketnumber",
+				"type": "nvarchar"
+			},
+			{
+				"name": "customeridname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "entityimage_timestamp",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "processid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "modifiedbyexternalparty",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_modifiedbyexternalparty",
+				"type": "nvarchar"
+			},
+			{
+				"name": "modifiedbyexternalpartyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "messagetypecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_messagetypecode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "servicestage",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_servicestage",
+				"type": "nvarchar"
+			},
+			{
+				"name": "isdecrementing",
+				"type": "bit"
+			},
+			{
+				"name": "contractid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_contractid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owneridyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdbyexternalpartyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "int_upsellreferral",
+				"type": "bit"
+			},
+			{
+				"name": "emailaddress",
+				"type": "nvarchar"
+			},
+			{
+				"name": "checkemail",
+				"type": "bit"
+			},
+			{
+				"name": "actualserviceunits",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "title",
+				"type": "nvarchar"
+			},
+			{
+				"name": "merged",
+				"type": "bit"
+			},
+			{
+				"name": "severitycode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_severitycode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "firstresponsebykpiidname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "followuptaskcreated",
+				"type": "bit"
+			},
+			{
+				"name": "socialprofileid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_socialprofileid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdbyexternalparty",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_createdbyexternalparty",
+				"type": "nvarchar"
+			},
+			{
+				"name": "parentcaseid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_parentcaseid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "modifiedbyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "onholdtime",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "customersatisfactioncode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_customersatisfactioncode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "modifiedonbehalfbyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "decremententitlementterm",
+				"type": "bit"
+			},
+			{
+				"name": "statuscode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_statuscode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "stageid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "slaid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_slaid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "lastonholdtime",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "resolvebyslastatus",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "legacy_resolvebyslastatus",
+				"type": "nvarchar"
+			},
+			{
+				"name": "customercontacted",
+				"type": "bit"
+			},
+			{
+				"name": "existingcase",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_existingcase",
+				"type": "nvarchar"
+			},
+			{
+				"name": "firstresponsesent",
+				"type": "bit"
+			},
+			{
+				"name": "incidentid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "owningbusinessunit",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_owningbusinessunit",
+				"type": "nvarchar"
+			},
+			{
+				"name": "primarycontactid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_primarycontactid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdbyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "influencescore",
+				"type": "decimal",
+				"precision": 13,
+				"scale": 2
+			},
+			{
+				"name": "productid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_productid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "traversedpath",
+				"type": "nvarchar"
+			},
+			{
+				"name": "productserialnumber",
+				"type": "nvarchar"
+			},
+			{
+				"name": "description",
+				"type": "nvarchar"
+			},
+			{
+				"name": "customeridyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdbyexternalpartyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "resolvebykpiid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "legacy_resolvebykpiid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "masteridname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "accountidyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ActionFlag",
+				"type": "char"
+			},
+			{
+				"name": "ProcessingFlag",
+				"type": "char"
+			},
+			{
+				"name": "DM_CreatedDateTime",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Case"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

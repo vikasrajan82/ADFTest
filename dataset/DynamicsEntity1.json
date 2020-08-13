@@ -1,0 +1,16 @@
+{
+	"name": "DynamicsEntity1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "crm632692",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DynamicsEntity",
+		"schema": [],
+		"typeProperties": {
+			"entityName": "new_test"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

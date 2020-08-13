@@ -1,0 +1,208 @@
+{
+	"name": "Annotation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CRMRecordID",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "filepointer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "modifiedbyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "stepid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdbyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "modifiedbyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "documentbody",
+				"type": "nvarchar"
+			},
+			{
+				"name": "objecttypecodename",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ownerid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "ownerid_Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ownerid_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdonbehalfbyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "objectid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "objectid_Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "objectid_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "isdocumentname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "importsequencenumber",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "modifiedonbehalfbyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "modifiedonbehalfbyyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "isprivate",
+				"type": "bit"
+			},
+			{
+				"name": "filename",
+				"type": "nvarchar"
+			},
+			{
+				"name": "overriddencreatedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "createdonbehalfbyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owneridname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "prefix",
+				"type": "nvarchar"
+			},
+			{
+				"name": "subject",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owningbusinessunit",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "owningbusinessunit_Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owningbusinessunit_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "createdbyname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "mimetype",
+				"type": "nvarchar"
+			},
+			{
+				"name": "isdocument",
+				"type": "bit"
+			},
+			{
+				"name": "owningteam",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "owningteam_Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owningteam_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "isprivatename",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owninguser",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "owninguser_Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owninguser_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "notetext",
+				"type": "nvarchar"
+			},
+			{
+				"name": "storagepointer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owneridyominame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "annotationid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "filesize",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "langid",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "CRM_annotation"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
