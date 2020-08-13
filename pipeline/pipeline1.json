@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy Data to CRM",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -115,7 +115,7 @@
 				"type": "SqlServerStoredProcedure",
 				"dependsOn": [
 					{
-						"activity": "Copy data1",
+						"activity": "Copy Data to CRM",
 						"dependencyConditions": [
 							"Failed"
 						]
