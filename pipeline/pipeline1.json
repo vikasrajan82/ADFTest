@@ -198,7 +198,7 @@
 						},
 						"ErrorMessage": {
 							"value": {
-								"value": "@activity('Copy Data to CRM').output.logFilePath1",
+								"value": "@activity('Copy Data to CRM').output.logFilePath",
 								"type": "Expression"
 							},
 							"type": "String"
